@@ -1,14 +1,14 @@
 {
-  "name": "lua.vm.js",
-  "version": "0.0.1",
-  "description": "The Lua VM, on the Web",
+  "name": "swarm-lua",
+  "version": "1.0.0",
+  "description": "Fork of lua.vm.js for swarm",
   "main": "dist/lua.vm.js",
   "scripts": {
     "test": "node -e 'f=require(\"fs\").readFileSync(\"src/hello.lua\",\"utf8\"); m=new require(\"./dist/lua.vm.js\"); l=new m.Lua.State(); l.execute(f)'"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kripken/lua.vm.js.git"
+    "url": "https://github.com/jaredallard/swarm-lua.git"
   },
   "keywords": [
     "lua",
@@ -20,7 +20,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kripken/lua.vm.js/issues"
+    "url": "https://github.com/jaredallard/swarm-lua/issues"
   },
-  "homepage": "http://kripken.github.io/lua.vm.js/lua.vm.js.html"
+  "homepage": "https://jaredallard.me"
 }
