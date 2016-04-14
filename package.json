@@ -1,6 +1,6 @@
 {
   "name": "swarm-lua",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Fork of lua.vm.js for swarm",
   "main": "dist/lua.vm.js",
   "scripts": {
