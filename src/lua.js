@@ -386,6 +386,7 @@ Lua.State = function (_L) {
 		this.setglobal("js");
 
 		this.gc(Lua.defines.GC.RESTART, 0);
+		this.execute("dofile'js.lua'"); // patch for node.js
 	}
 	this._G = Lua.Proxy.create(this, Lua.defines.RIDX_GLOBALS);
 };
